@@ -11,7 +11,7 @@ function App() {
   console.log(authUser);
   return (
     <>
-      <div className="dark:bg-slate-900 dark:text-white">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
